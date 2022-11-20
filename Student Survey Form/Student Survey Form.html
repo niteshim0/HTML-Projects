@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Student Survey</title>
+  </head>
+  <body>
+    <h1 align="center">Student Survey Form</h1>
+    <form action="mailto:someone@example.com" method="post" autocomplete="on" align="center">
+      <label for="fullname">Enter your Name:&nbsp</label>
+      <input type="text" name="fullname" value="Name">
+      <br>
+      <label for="grad_year">Grad Year:</label>
+      <input type="radio" id="I" name=grad_year value="I Year">
+  <label for="I">I Year</label>&nbsp;
+  <input type="radio" id="II" name="grad_year" value="II Year">
+  <label for="II">II Year</label>&nbsp;
+  <input type="radio" id="III" name="grad_year" value="III Year">
+  <label for="III">III Year</label>&nbsp;
+<input type="radio" id="IV" name="grad_year" value="IV Year">
+  <label for="IV">IV Year</label>&nbsp;
+      <br>
+      <label for="branch">Branch:&nbsp</label>
+      <select class="branch" name="branch">
+        <option value="CSE" selected>CSE</option>
+        <option value="ECE" >ECE</option>
+        <option value="EE" >EE</option>
+        <option value="ME" >ME</option>
+        <option value="CHE">CHE</option>
+        <option value="CE" >CE</option>
+      </select>
+      <br>
+      <label for="DOB">DOB:&nbsp</label>
+      <input type="date" name="DOB" value="DOB">
+      <br>
+      <label for="introduction">Tell us little about yourself:&nbsp</label>
+      <textarea name="name" rows="10" cols="30"></textarea>
+      <br>
+      <label for="rating">Rate this college:&nbsp</label>
+      <input type="range" name="rating" min="1" max="10">
+      <br>
+      <p>How do you like to read your favourite topics:&nbsp</p>
+      <p>
+      <input type="checkbox" name="YouTube">YouTube
+      <input type="checkbox" name="Online sites">Online sites
+      <input type="checkbox" name="Books">Books
+      <input type="checkbox" name="Magazines">Magazines
+      </p>
+      <input type="submit" name="Submit">
+      </form>
+  </body>
+</html>
